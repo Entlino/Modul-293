@@ -1,0 +1,96 @@
+.grid-container {
+ grid-template-rows: auto;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #00aaff;
+  color: white;
+  padding: 20px;
+  text-align: center;
+
+}
+
+h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #00aaff;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  background-color: #0077ff;
+}
+h2 {
+  margin: 10px;
+
+}
+p {
+  margin: 10px;
+  padding: 2px;
+}
+main {
+  display: grid;
+  grid-gap: 20px;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.recipe-section {
+ grid-column:  2fr 1fr;
+ display: flex;
+ text-align: left;
+}
+
+.Bild {
+  margin: 0 auto;
+}
+
+footer {
+  background-color: #e0e0e0;
+  padding: 20px;
+  text-align: center;
+}
+@media (max-width:700px)
+{
+
+  body{
+    background-color: aqua;
+  }
+  .Bild {
+    display:;
+    grid-column: auto;
+    text-align: left;
+    width: auto;
+   
+  } 
+  .grid-container {
+    grid-template-rows: auto  ;
+
+  }
+  img {
+
+  width: auto;  }
+}
